@@ -1,0 +1,32 @@
+{
+  "name": "html-gulp-boilerpate",
+  "version": "1.0.0",
+  "author": "Chuck Smith <chuck@eclecticsaddlebag.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadawais/WPGulp"
+  },
+  "main": "./installer/index.js",
+  "bin": {
+    "html-gulp": "./installer/index.js"
+  },
+  "keywords": [
+    "gulp",
+    "html",
+    "sass",
+    "scss",
+    "css"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "download": "^7.1.0",
+    "execa": "^2.0.4",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "auto-changelog": "^1.8.0",
+    "eslint": "^6.2.2",
+    "release-it": "^12.3.6"
+  }
+}
