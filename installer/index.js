@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 /**
- * Main Install WPGulp app
- *
+ * Main Install HTML-Gulp-Boilerplate app
  * Check the node version if above 8 then run the app.
  */
 
@@ -20,8 +19,8 @@ if (8 > major) {
 			'You are running Node ' +
 			currentNodeVersion +
 			'.\n' +
-			'Install WPGulp requires Node 8 or higher. \n' +
-			'Kindly, update your version of Node.'
+			'Install HTML-Gulp-Boilerplate requires Node 8 or higher. \n' +
+			'Please, update your version of Node.'
 		)
 	);
 	process.exit(1);
@@ -36,7 +35,6 @@ process.on('unhandledRejection', err => {
 
 /**
  * Run the entire program.
- *
  * Runs all the functions with async/await.
  */
 const run = require('./modules/run');

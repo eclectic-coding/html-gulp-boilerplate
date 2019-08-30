@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea2cf64c-2c80-4c5b-bcdc-3d78ce192043" name="Default Changelist" comment="" />
+    <list default="true" id="ea2cf64c-2c80-4c5b-bcdc-3d78ce192043" name="Default Changelist" comment="">
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/.editorconfig" afterDir="false" />
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/.eslintignore" afterDir="false" />
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/.eslintrc.js" afterDir="false" />
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/gulpfile.babel.js" afterDir="false" />
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/gulpfile.config.js" afterDir="false" />
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installer/modules/handleError.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/.gitignore" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/dist/css/main.css" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/dist/css/main.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/index.html" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/index.html" afterDir="false" />
+      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/package.json" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/package.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/abstracts/_mixins.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/abstracts/_mixins.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/layout/_navigation.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/layout/_navigation.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/main.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/yarn.lock" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/html-gulp-boilerpate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/html-gulp-boilerpate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/installer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installer/modules/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/installer/modules/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gulpfile.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gulpfile.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gulp.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,17 +43,22 @@
     <dismissed value="$PROJECT_DIR$/src/package.json" />
   </component>
   <component name="ProjectId" id="1Q4fPT3k3mnEpg6dvyOoZt8ceB6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.nvm/versions/node/v10.16.0/lib/node_modules/npm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="$USER_HOME$/.nvm/versions/node/v10.16.0/lib/node_modules/npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,6 +89,13 @@
       <updated>1567034765004</updated>
       <workItem from="1567034766102" duration="3530000" />
       <workItem from="1567073338284" duration="792000" />
+      <workItem from="1567074391393" duration="24000" />
+      <workItem from="1567104229718" duration="5000" />
+      <workItem from="1567104247561" duration="46000" />
+      <workItem from="1567109186572" duration="611000" />
+      <workItem from="1567161525297" duration="3522000" />
+      <workItem from="1567166630219" duration="632000" />
+      <workItem from="1567175383626" duration="2493000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1567074112621</created>
@@ -85,6 +124,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="Added gitignore" />
   </component>

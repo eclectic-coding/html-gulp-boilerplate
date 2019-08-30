@@ -1,11 +1,11 @@
 {
   "name": "your-project",
-  "description": "A WPGulp based project.",
-  "version": "1.0.0",
-  "author": "Author Name (https://twitter.com/MrAhmadAwais/)",
+  "description": "A HTML-Gulp based project.",
+  "version": "0.5.0",
+  "author": "Author Name (https://twitter.com/EclecticCoding)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmadawais/WPGulp"
+    "url": "https://github.com/eclectic-coding/html-gulp-boilerplate"
   },
   "license": "MIT",
   "devDependencies": {
@@ -24,7 +24,6 @@
     "gulp-filter": "^6.0.0",
     "gulp-imagemin": "^6.1.0",
     "gulp-line-ending-corrector": "^1.0.1",
-    "gulp-merge-media-queries": "^0.2.1",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.2.0",
     "gulp-remember": "^1.0.1",

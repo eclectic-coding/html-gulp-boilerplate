@@ -3,43 +3,29 @@
  *
  * Gulp Boilerplate for HTML5.
  *
- * Implements:
- *      1. Live reloads browser with BrowserSync.
- *      2. CSS: Sass to CSS conversion, error catching, Autoprefixing, Sourcemaps,
- *         CSS minification, and Merge Media Queries.
- *      3. JS: Concatenates & uglifies Vendor and Custom JS files.
- *      4. Images: Minifies PNG, JPEG, GIF and SVG images.
- *      5. Watches files for changes in CSS or JS.
- *      6. Watches files for changes in HTML.
- *      7. Corrects the line endings.
- *      8. InjectCSS instead of browser page reload.
- *
  */
 
 /**
  * Load HTML-Gulp-Boilerplate Configuration.
  *
- * TODO: Customize your project in the gulpfile.config.js file.
+ * TODO: Customize your project in the gulp.config.js file.
  */
-const config = require('./gulpfile.config.js');
+const config = require('./gulp.config.js');
 
 /**
  * Load Plugins.
- *
- * Load gulp plugins and passing them semantic names.
  */
-const gulp = require('gulp'); // Gulp of-course.
+const gulp = require('gulp');
 
 // CSS related plugins.
-const sass = require('gulp-sass'); // Gulp plugin for Sass compilation.
-const minifycss = require('gulp-uglifycss'); // Minifies CSS files.
-const autoprefixer = require('gulp-autoprefixer'); // Autoprefixing magic.
-const mmq = require('gulp-merge-media-queries'); // Combine matching media queries into one.
+const sass = require('gulp-sass');
+const minifycss = require('gulp-uglifycss');
+const autoprefixer = require('gulp-autoprefixer');
 const rtlcss = require('gulp-rtlcss'); // Generates RTL stylesheet.
 
 // JS related plugins.
-const concat = require('gulp-concat'); // Concatenates JS files.
-const uglify = require('gulp-uglify'); // Minifies JS files.
+const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
 const babel = require('gulp-babel'); // Compiles ESNext to browser compatible JS.
 
 // Image related plugins.
@@ -47,19 +33,18 @@ const imagemin = require('gulp-imagemin'); // Minify PNG, JPEG, GIF and SVG imag
 
 // Utility related plugins.
 const rename = require('gulp-rename'); // Renames files E.g. style.css -> style.min.css.
-const lineec = require('gulp-line-ending-corrector'); // Consistent Line Endings for non UNIX systems. Gulp Plugin for Line Ending Corrector (A utility that makes sure your files have consistent line endings).
-const filter = require('gulp-filter'); // Enables you to work on a subset of the original files by filtering them using a glob.
-const sourcemaps = require('gulp-sourcemaps'); // Maps code in a compressed file (E.g. style.css) back to it’s original position in a source file (E.g. structure.scss, which was later combined with other css files to generate style.css).
+const lineec = require('gulp-line-ending-corrector'); // Consistent Line Endings for non UNIX systems.
+const filter = require('gulp-filter');
+const sourcemaps = require('gulp-sourcemaps');
 const notify = require('gulp-notify'); // Sends message notification to you.
-const browserSync = require('browser-sync').create(); // Reloads browser and injects CSS. Time-saving synchronized browser testing.
-const cache = require('gulp-cache'); // Cache files in stream for later use.
-const remember = require('gulp-remember'); //  Adds all the files it has ever seen back into the stream.
+const browserSync = require('browser-sync').create();
+const cache = require('gulp-cache');
+const remember = require('gulp-remember');
 const plumber = require('gulp-plumber'); // Prevent pipe breaking caused by errors from gulp plugins.
 const beep = require('beepbeep');
 
 /**
  * Custom Error Handler.
- *
  */
 const errorHandler = r => {
 	notify.onError('\n\n❌  ===> ERROR: <%= error.message %>\n')(r);
@@ -126,7 +111,6 @@ gulp.task('styles', () => {
 		.pipe(lineec()) // Consistent Line Endings for non UNIX systems.
 		.pipe(gulp.dest(config.styleDestination))
 		.pipe(filter('**/*.css')) // Filtering stream to only css files.
-		.pipe(mmq({log: true})) // Merge Media Queries only for .min.css version.
 		.pipe(browserSync.stream()) // Reloads style.css if that is enqueued.
 		.pipe(rename({suffix: '.min'}))
 		.pipe(minifycss({maxLineLen: 10}))
@@ -175,7 +159,6 @@ gulp.task('stylesRTL', () => {
 		.pipe(gulp.dest(config.styleDestination))
 		.pipe(filter('**/*.css')) // Filtering stream to only css files.
 		.pipe(browserSync.stream()) // Reloads style.css or style-rtl.css, if that is enqueued.
-		.pipe(mmq({log: true})) // Merge Media Queries only for .min.css version.
 		.pipe(rename({suffix: '.min'}))
 		.pipe(minifycss({maxLineLen: 10}))
 		.pipe(lineec()) // Consistent Line Endings for non UNIX systems.
@@ -314,32 +297,6 @@ gulp.task('images', () => {
  */
 gulp.task('clearCache', function (done) {
 	return cache.clearAll(done);
-});
-
-/**
- * WP POT Translation File Generator.
- *
- * This task does the following:
- * 1. Gets the source of all the PHP files
- * 2. Sort files in stream by path or any custom sort comparator
- * 3. Applies wpPot with the variable set at the top of this file
- * 4. Generate a .pot file of i18n that can be used for l10n to build .mo file
- */
-gulp.task('translate', () => {
-	return gulp
-		.src(config.watchPhp)
-		.pipe(sort())
-		.pipe(
-			wpPot({
-				domain: config.textDomain,
-				package: config.packageName,
-				bugReport: config.bugReport,
-				lastTranslator: config.lastTranslator,
-				team: config.team
-			})
-		)
-		.pipe(gulp.dest(config.translationDestination + '/' + config.translationFile))
-		.pipe(notify({message: '\n\n✅  ===> TRANSLATE — completed!\n', onLast: true}));
 });
 
 /**

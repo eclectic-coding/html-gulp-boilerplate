@@ -18,6 +18,16 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@eclectic-coding/html-gulp-boilerplate@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@eclectic-coding/html-gulp-boilerplate/-/html-gulp-boilerplate-0.5.0.tgz#adb5d68085f90e31a8bf23c7720f1102e72003ec"
+  integrity sha512-j2ZlGuQIZkh3vpYi+48ul3rTK4wEBzHtF98hsJjQaM6jKu6u63e9ChlptG8yZJgpAvJeMpXboUXjpr6VZh2Uhg==
+  dependencies:
+    chalk "^2.4.1"
+    download "^7.1.0"
+    execa "^2.0.4"
+    ora "^3.0.0"
+
 "@iarna/toml@2.2.3":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.3.tgz#f060bf6eaafae4d56a7dac618980838b0696e2ab"
