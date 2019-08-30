@@ -22,7 +22,7 @@ module.exports = () => {
 		'https://raw.githubusercontent.com/eclectic-coding/html-gulp-boilerplate/master/src/.eslintrc.js',
 		'https://raw.githubusercontent.com/eclectic-coding/html-gulp-boilerplate/master/src/.gitignore',
 		'https://raw.githubusercontent.com/eclectic-coding/html-gulp-boilerplate/master/src/gulpfile.babel.js',
-		'https://raw.githubusercontent.com/eclectic-coding/html-gulp-boilerplate/master/src/package.json',
+		// 'https://raw.githubusercontent.com/eclectic-coding/html-gulp-boilerplate/master/src/package.json',
 		'https://raw.githubusercontent.com/eclectic-coding/html-gulp-boilerplate/master/src/gulpfile.config.js'
 	];
 
