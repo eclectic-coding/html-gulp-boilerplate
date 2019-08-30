@@ -15,7 +15,7 @@ const config = require('./gulp.config.js');
 /**
  * Load Plugins.
  */
-const gulp = require('gulp');
+const gulp = require('./node_modules/@eclectic-coding/node_modules/gulp');
 
 // CSS related plugins.
 const sass = require('gulp-sass');

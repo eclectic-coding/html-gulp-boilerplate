@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2cf64c-2c80-4c5b-bcdc-3d78ce192043" name="Default Changelist" comment="">
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/editorconfig" afterDir="false" />
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/eslintignore" afterDir="false" />
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/eslintrc.js" afterDir="false" />
+      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
       <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/.gitignore" beforeDir="false" />
       <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/dist/css/main.css" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/dist/css/main.css" afterDir="false" />
       <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/index.html" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/index.html" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/package.json" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/package.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/package.json" beforeDir="false" />
       <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/abstracts/_mixins.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/abstracts/_mixins.scss" afterDir="false" />
       <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/layout/_navigation.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/layout/_navigation.scss" afterDir="false" />
       <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/main.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/main.scss" afterDir="false" />
@@ -13,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/installer/modules/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/installer/modules/run.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Sites/html/html5-portfolio" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -81,7 +88,7 @@
       <workItem from="1567109186572" duration="611000" />
       <workItem from="1567161525297" duration="3522000" />
       <workItem from="1567166630219" duration="632000" />
-      <workItem from="1567175383626" duration="3174000" />
+      <workItem from="1567175383626" duration="6463000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1567074112621</created>
