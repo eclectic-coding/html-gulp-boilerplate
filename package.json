@@ -1,7 +1,7 @@
 {
   "name": "@eclectic-coding/html-gulp-boilerplate",
   "description": "A HTML-Gulp based project.",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "author": "Chuck Smith (https://twitter.com/EclecticCoding)",
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 {
   "name": "your-project",
   "description": "A HTML-Gulp based project.",
-  "version": "0.5.1",
+  "version": "0.5.3",
   "author": "Author Name (https://twitter.com/EclecticCoding)",
   "repository": {
     "type": "git",

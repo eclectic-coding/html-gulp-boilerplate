@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2cf64c-2c80-4c5b-bcdc-3d78ce192043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.doc/clTemplate.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changelog-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/html-gulp-boilerpate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/html-gulp-boilerpate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +78,7 @@
       <workItem from="1567175383626" duration="6463000" />
       <workItem from="1567209984346" duration="194000" />
       <workItem from="1567253970455" duration="50000" />
-      <workItem from="1567254062334" duration="3045000" />
+      <workItem from="1567254062334" duration="3369000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1567074112621</created>
