@@ -2,46 +2,41 @@
   "name": "@eclectic-coding/html-gulp-boilerplate",
   "description": "A HTML-Gulp based project.",
   "version": "0.5.2",
-  "author": "Author Name (https://twitter.com/EclecticCoding)",
+  "author": "Chuck Smith (https://twitter.com/EclecticCoding)",
   "repository": {
     "type": "git",
     "url": "https://github.com/eclectic-coding/html-gulp-boilerplate"
   },
   "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "download": "^7.1.0",
+    "execa": "^1.0.0",
+    "ora": "^3.0.0"
+  },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/register": "^7.0.0",
-    "beepbeep": "^1.2.2",
-    "browser-sync": "^2.11.1",
-    "browserslist": "^4.6.6",
-    "eslint": "^6.2.2",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^7.0.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-cache": "^1.0.2",
-    "gulp-concat": "^2.5.2",
-    "gulp-filter": "^6.0.0",
-    "gulp-imagemin": "^6.1.0",
-    "gulp-line-ending-corrector": "^1.0.1",
-    "gulp-notify": "^3.0.0",
-    "gulp-plumber": "^1.2.0",
-    "gulp-remember": "^1.0.1",
-    "gulp-rename": "^1.2.0",
-    "gulp-rtlcss": "^1.2.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.2",
-    "gulp-uglify": "^3.0.0",
-    "gulp-uglifycss": "^1.0.6"
+    "auto-changelog": "^1.8.0",
+    "eslint": "^5.5.0",
+    "release-it": "^7.6.1"
+  },
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": ".doc/clTemplate.hbs",
+    "commitLimit": false,
+    "package": true,
+    "replaceText": {
+      "FIX: ": "",
+      "NEW: ": "",
+      "IMPROVE: ": "",
+      "DOC: ": ""
+    }
   },
   "scripts": {
-    "start": "gulp",
-    "styles": "gulp styles",
-    "stylesRTL": "gulp stylesRTL",
-    "vendorsJS": "gulp vendorsJS",
-    "customJS": "gulp customJS",
-    "images": "gulp images",
-    "clearCache": "gulp clearCache"
-  },
-  "dependencies": {}
+    "log": "auto-changelog && git add . && git ci -m 'DOC: Update the changelog' && git push",
+    "release": "release-it",
+    "release-minor": "release-it minor",
+    "release-major": "release-it major",
+    "release-dry": "release-it --dry-run",
+    "release-beta": "release-it --preRelease=beta"
+  }
 }

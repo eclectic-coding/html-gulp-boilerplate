@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2cf64c-2c80-4c5b-bcdc-3d78ce192043" name="Default Changelist" comment="">
-      <change afterPath="$USER_HOME$/Sites/html/html5-portfolio/gulpfile.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/.gitignore" beforeDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/.idea/html5-portfolio.iml" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/.idea/html5-portfolio.iml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/.idea/vcs.xml" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/dist/css/main.css" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/dist/css/main.css" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/index.html" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/index.html" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/package.json" beforeDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/abstracts/_mixins.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/abstracts/_mixins.scss" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/layout/_header.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/layout/_navigation.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/layout/_navigation.scss" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/main.scss" beforeDir="false" afterPath="$USER_HOME$/Sites/html/html5-portfolio/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$USER_HOME$/Sites/html/html5-portfolio/yarn.lock" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.doc/clTemplate.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changelog-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/html-gulp-boilerpate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/html-gulp-boilerpate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/html-boilerplate-gulp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,6 +44,9 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -85,7 +82,9 @@
       <workItem from="1567161525297" duration="3522000" />
       <workItem from="1567166630219" duration="632000" />
       <workItem from="1567175383626" duration="6463000" />
-      <workItem from="1567209984346" duration="123000" />
+      <workItem from="1567209984346" duration="194000" />
+      <workItem from="1567253970455" duration="50000" />
+      <workItem from="1567254062334" duration="3045000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1567074112621</created>
