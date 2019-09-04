@@ -8,7 +8,7 @@ const chalk = require('chalk')
 module.exports = () => {
   console.log(
     '\n\n✅ ',
-    chalk.black.bgGreen(' All done! Use your code for good. \n')
+    chalk.black.bgGreen(' All done! Go and use your code for good. \n')
   )
   console.log(
     'Installer has added HTML-Gulp-Boilerplate files to the current directory.  ',

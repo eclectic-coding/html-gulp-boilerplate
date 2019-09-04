@@ -7,12 +7,17 @@
     "type": "git",
     "url": "https://github.com/eclectic-coding/html-gulp-boilerplate"
   },
+  "main": "./installer/index.js",
+  "bin": {
+    "html-gulp": "./installer/index.js"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
     "download": "^7.1.0",
     "execa": "^1.0.0",
-    "ora": "^3.0.0"
+    "ora": "^3.0.0",
+    "postinstall": "^0.5.1"
   },
   "devDependencies": {
     "auto-changelog": "^1.8.0",
@@ -32,6 +37,7 @@
     }
   },
   "scripts": {
+    "postinstall": "./installer/index.js",
     "log": "auto-changelog && git add . && git ci -m 'DOC: Update the changelog' && git push",
     "release": "release-it",
     "release-minor": "release-it minor",

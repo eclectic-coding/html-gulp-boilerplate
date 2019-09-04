@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2cf64c-2c80-4c5b-bcdc-3d78ce192043" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/gulp/customJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gulp/images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gulp/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gulp/stylesRTL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gulp/vendorJS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/installer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installer/modules/printNextSteps.js" beforeDir="false" afterPath="$PROJECT_DIR$/installer/modules/printNextSteps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installer/modules/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/installer/modules/run.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gulp.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gulp.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/html-boilerplate-gulp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/untitled" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,10 +49,11 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -78,7 +90,24 @@
       <workItem from="1567175383626" duration="6463000" />
       <workItem from="1567209984346" duration="194000" />
       <workItem from="1567253970455" duration="50000" />
-      <workItem from="1567254062334" duration="3369000" />
+      <workItem from="1567254062334" duration="4637000" />
+      <workItem from="1567267397239" duration="562000" />
+      <workItem from="1567277027074" duration="109000" />
+      <workItem from="1567279862117" duration="865000" />
+      <workItem from="1567280776068" duration="709000" />
+      <workItem from="1567282549223" duration="69000" />
+      <workItem from="1567282776074" duration="235000" />
+      <workItem from="1567285024606" duration="920000" />
+      <workItem from="1567286336544" duration="166000" />
+      <workItem from="1567340839009" duration="7745000" />
+      <workItem from="1567376249352" duration="4471000" />
+      <workItem from="1567385395563" duration="752000" />
+      <workItem from="1567388121536" duration="620000" />
+      <workItem from="1567419811282" duration="660000" />
+      <workItem from="1567422196890" duration="245000" />
+      <workItem from="1567455751727" duration="90000" />
+      <workItem from="1567460960637" duration="567000" />
+      <workItem from="1567591839447" duration="5384000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1567074112621</created>
