@@ -1,31 +1,37 @@
 /**
- * Gulpfile.
+ * Gulp project
  *
- * Gulp Boilerplate for HTML5.
- *
+ * Gulp Boilerplate for HTML5 projects
  */
 
-// Load HTML-Gulp-Boilerplate Configuration.
-const config = require('./gulp.config.js')
-
-// Gulp Packages -- General
+// Load Plugins.
 const { watch, series, parallel } = require('gulp')
-
-// Utilities
 const browserSync = require('browser-sync').create()
-const del = require('del')
 
-// Import modules
-const customJS = require('./gulp/customJS')
-const vendorJS = require('./gulp/vendorJS')
+// File imports
+const config = require('./gulp.config.js')
 const buildStyles = require('./gulp/styles')
-const buildStylesRTL = require('./gulp/stylesRTL')
-const buildIMGs = require('./gulp/images')
+const buildJS = require('./gulp/buildJS')
+const images = require('./gulp/images')
 
-// Gulp Tasks ---------------------------------------=>
+/**
+ * Helpers
+ */
+function vendorJS (done) {
+  if (!config.jsVendorSet) return done()
+  return buildJS(config.jsVendorSRC, config.jsDest, config.jsVendorFile)
+}
 
-// Watch for changes to the src directory
-const startServer = function(done) {
+function customJS (done) {
+  if (!config.jsCustomSet) return done()
+  return buildJS(config.jsCustomSRC, config.jsDest, config.jsCustomFile)
+}
+
+/**
+ * Setup BrowserSync Server
+ *
+ *********************************************/
+const startServer = function (done) {
   if (!config.reloadSet) return done()
 
   // Initialize BrowserSync
@@ -40,14 +46,14 @@ const startServer = function(done) {
 }
 
 // Reload the browser when files change
-const reloadBrowser = function(done) {
+const reloadBrowser = function (done) {
   if (!config.reloadSet) return done()
   browserSync.reload()
   done()
 }
 
 // Watch for changes
-const watchSource = function(done) {
+const watchSource = function (done) {
   watch(config.baseURL, series(exports.default, reloadBrowser))
   watch(config.baseSRC, series(exports.default, reloadBrowser))
   watch('./*.html', reloadBrowser)
@@ -55,7 +61,7 @@ const watchSource = function(done) {
 }
 
 // Remove pre-existing content from output folders
-const cleanDist = function(done) {
+const cleanDist = function (done) {
   if (!config.cleanSet) return done()
   del.sync([config.baseDest])
   return done()
@@ -64,7 +70,8 @@ const cleanDist = function(done) {
 // Default task
 exports.default = series(
   cleanDist,
-  parallel(buildStyles, buildStylesRTL, buildIMGs, customJS, vendorJS)
+  buildStyles,
+  parallel(vendorJS, customJS, images)
 )
 
 // Watch and reload

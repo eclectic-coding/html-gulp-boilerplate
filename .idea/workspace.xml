@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2cf64c-2c80-4c5b-bcdc-3d78ce192043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulp.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/installer/modules/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/installer/modules/run.js" afterDir="false" />
     </list>
@@ -27,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/untitled" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Sites/html/html-portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -97,7 +95,9 @@
       <workItem from="1567422196890" duration="245000" />
       <workItem from="1567455751727" duration="90000" />
       <workItem from="1567460960637" duration="567000" />
-      <workItem from="1567591839447" duration="9156000" />
+      <workItem from="1567591839447" duration="9468000" />
+      <workItem from="1567620781289" duration="65000" />
+      <workItem from="1567620944154" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1567074112621</created>

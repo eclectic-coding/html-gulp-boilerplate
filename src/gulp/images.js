@@ -1,7 +1,6 @@
 const { src, dest } = require('gulp')
 const cache = require('gulp-cache')
 const imagemin = require('gulp-imagemin')
-const notify = require('gulp-notify')
 
 const config = require('../gulp.config')
 
@@ -26,11 +25,11 @@ const errorHandler = r => {
 }
 
 // Optimize IMG files
-module.exports = function(done) {
+module.exports = function images (done) {
   // Make sure this feature is activated before running
   if (!config.imgSet) return done()
 
-  // Optimize SVG files
+  // Optimize IMG files
   return src(config.imgSRC)
     .pipe(
       cache(
@@ -45,7 +44,4 @@ module.exports = function(done) {
       )
     )
     .pipe(dest(config.imgDST))
-    .pipe(
-      notify({ message: '\n\n✅  ===> IMAGES — completed!\n', onLast: true })
-    )
 }

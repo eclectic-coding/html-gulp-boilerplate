@@ -6,7 +6,7 @@ const notify = require('gulp-notify')
 const plumber = require('gulp-plumber')
 const remember = require('gulp-remember')
 const rename = require('gulp-rename')
-const uglify = require('gulp-uglifycss')
+const uglify = require('gulp-uglify')
 const config = require('../gulp.config')
 
 const errorHandler = r => {
@@ -27,19 +27,13 @@ const errorHandler = r => {
 }
 
 /**
- * Task: `customJS`.
+ * Task: `vendorJS`.
  *
  * Concatenate and uglify custom JS scripts.
- * 	1. Gets the source folder for JS custom files
- * 	2. Concatenates all the files and generates custom.js
- *	3. Renames the JS file with suffix .min.js
- *	4. Uglifes/Minifies the JS file and generates custom.min.js
  */
-module.exports = function(done) {
-  // Make sure this feature is activated before running
-  if (!config.jsCustomSet) return done()
+module.exports = function vendorJS (jsSrc, jsOutput, jsSuffix) {
 
-  return src(config.jsCustomSRC) // Only run on changed files.
+  return src(jsSrc) // Only run on changed files.
     .pipe(plumber(errorHandler))
     .pipe(
       babel({
@@ -55,23 +49,17 @@ module.exports = function(done) {
         ]
       })
     )
-    .pipe(remember(config.jsCustomSRC)) // Bring all files back to stream.
-    .pipe(concat(config.jsCustomFile + '.js'))
+    .pipe(remember(jsSrc))
+    .pipe(concat(jsSuffix + '.js'))
     .pipe(lineec()) // Consistent Line Endings for non UNIX systems.
-    .pipe(dest(config.jsCustomDest))
+    .pipe(dest(jsOutput))
     .pipe(
       rename({
-        basename: config.jsCustomFile,
+        basename: jsSuffix,
         suffix: '.min'
       })
     )
     .pipe(uglify())
-    .pipe(lineec()) // Consistent Line Endings for non UNIX systems.
-    .pipe(dest(config.jsCustomDest))
-    .pipe(
-      notify({
-        message: '\n\n ✅  ===> CUSTOM JS — completed!\n',
-        onLast: true
-      })
-    )
+    .pipe(lineec())
+    .pipe(dest(jsOutput))
 }

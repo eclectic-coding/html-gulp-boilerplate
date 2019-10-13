@@ -1,7 +1,7 @@
 {
   "name": "@eclectic-coding/html-gulp-boilerplate",
   "description": "A HTML-Gulp based project.",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "author": "Chuck Smith (https://twitter.com/EclecticCoding)",
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "auto-changelog": "^1.8.0",
     "eslint": "^5.5.0",
+    "merge-package.json": "^3.0.2",
     "release-it": "^7.6.1"
   },
   "auto-changelog": {

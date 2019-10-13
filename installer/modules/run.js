@@ -47,7 +47,7 @@ module.exports = () => {
 
 	console.log(`1. Creating HTML-Gulp-Boilerplate files inside: → ${chalk.black.bgWhite(` ${theDir}`)}`)
 
-	console.log('added dir')
+
 	fs.mkdir('../../gulp', {recursive: true}, (err) => {
 		if (err) throw err;
 	});
