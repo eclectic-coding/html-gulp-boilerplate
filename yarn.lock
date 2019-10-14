@@ -208,7 +208,7 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-auto-changelog@^1.8.0:
+auto-changelog@1.15.0:
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/auto-changelog/-/auto-changelog-1.15.0.tgz#c21f9155dada6c1cc7a84234d35bfa27d2356491"
   integrity sha512-TnF15fXgJUOHdAzbMnbSzKq+0lK6NFVAssShYJJDykLduUO1xqHSzhwZXYa6ZkSTMARh4F7gz3W74ly0pLJ1vw==
@@ -1710,7 +1710,7 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@^5.5.0:
+eslint@5.16.0:
   version "5.16.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.16.0.tgz#a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea"
   integrity sha512-S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==
@@ -3840,7 +3840,7 @@ regjsparser@^0.1.4:
   dependencies:
     jsesc "~0.5.0"
 
-release-it@^7.6.1:
+release-it@7.6.3:
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/release-it/-/release-it-7.6.3.tgz#ee99792d4b7f3359692da5222405e580b91c74c7"
   integrity sha512-h1UuDF0Usfu/fqvmSzJawap8QckDJ6wT2xYaJvfyVQVMCQoQ2Ij12t6JWT56W52BT715GhpYO7YR0f2lOtzcNw==
