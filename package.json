@@ -20,7 +20,7 @@
     "postinstall": "^0.5.1"
   },
   "devDependencies": {
-    "auto-changelog": "1.15.0",
+    "auto-changelog": "1.16.2",
     "eslint": "5.16.0",
     "release-it": "7.6.3"
   },
