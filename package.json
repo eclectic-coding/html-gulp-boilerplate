@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "auto-changelog": "1.16.2",
-    "eslint": "6.6.0",
+    "eslint": "6.7.0",
     "release-it": "12.4.3"
   },
   "auto-changelog": {
