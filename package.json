@@ -15,7 +15,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "download": "^7.1.0",
-    "execa": "^3.0.0",
+    "execa": "^4.0.0",
     "ora": "^4.0.0",
     "postinstall": "^0.7.0"
   },
