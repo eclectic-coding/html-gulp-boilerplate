@@ -20,16 +20,9 @@
     "postinstall": "^0.7.0"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "auto-changelog": "^1.8.0",
-    "eslint": "^5.5.0",
-    "merge-package.json": "^3.0.2",
-    "release-it": "^7.6.1"
-=======
     "auto-changelog": "1.16.2",
     "eslint": "6.8.0",
     "release-it": "12.4.3"
->>>>>>> 351a92ebdaa317527f3fb164b8d00af84eca8311
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",
