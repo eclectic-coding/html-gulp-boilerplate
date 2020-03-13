@@ -292,6 +292,11 @@ ansi-styles@^4.1.0:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
+any-shell-escape@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/any-shell-escape/-/any-shell-escape-0.1.1.tgz#d55ab972244c71a9a5e1ab0879f30bf110806959"
+  integrity sha1-1Vq5ciRMcaml4asIefML8RCAaVk=
+
 archive-type@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/archive-type/-/archive-type-4.0.0.tgz#f92e72233056dfc6969472749c267bdb046b1d70"
@@ -2429,6 +2434,7 @@ registry-url@^5.0.0:
   dependencies:
     rc "^1.2.8"
 
+
 release-it@13.1.0:
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/release-it/-/release-it-13.1.0.tgz#c6777aaf06c59fedae4984a4c72bcc759ad14fbb"
@@ -2436,6 +2442,7 @@ release-it@13.1.0:
   dependencies:
     "@iarna/toml" "2.2.3"
     "@octokit/rest" "17.1.0"
+    any-shell-escape "0.1.1"
     async-retry "1.3.1"
     chalk "3.0.0"
     cosmiconfig "6.0.0"
