@@ -23,7 +23,6 @@
     "auto-changelog": "1.16.2",
     "eslint": "6.8.0",
     "release-it": "13.1.1"
-
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",
