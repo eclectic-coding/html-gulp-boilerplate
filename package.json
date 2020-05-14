@@ -22,7 +22,7 @@
   "devDependencies": {
     "auto-changelog": "2.0.0",
     "eslint": "7.0.0",
-    "release-it": "13.5.8"
+    "release-it": "13.6.0"
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",
